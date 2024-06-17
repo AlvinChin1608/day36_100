@@ -13,9 +13,6 @@ This Python script monitors the stock price of a specified company and sends ale
 - If the percentage change exceeds a threshold, fetch the latest news articles related to the company from NewsAPI.
 - Sends alerts with stock changes and news headlines to a specified WhatsApp number using Twilio.
 
-## Demo 
-![](https://github.com/AlvinChin1608/day36_100/blob/main/Finished_Product_Screenshot.PNG)
-
 ## Example Output
 If the stock price change exceeds the threshold, you will receive WhatsApp messages similar to the following:
 ```python
@@ -30,3 +27,5 @@ Ensure your .env file containing secret keys is not tracked by Git. Add the foll
 ```python
 .env
 ```
+## Demo 
+![](https://github.com/AlvinChin1608/day36_100/blob/main/Finished_Product_Screenshot.PNG)
